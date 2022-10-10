@@ -17,7 +17,12 @@ pools = [
     {
         "pool_name": "pool_ws_mobilidadews_renner_25796",
         "pool_members_port": "25796",
-        "pool_members": ["10.193.119.210"]
+        "pool_members": ["10.193.119.210", "10.193.119.211"]
+    }
+    {
+        "pool_name": "nome_outro_pool",
+        "pool_members_port": "8080",
+        "pool_members": ["10.103.119.100", "10.103.119.101"]
     }
 ]
 
